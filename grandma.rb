@@ -15,12 +15,12 @@
 def speak_to_grandma(phrase)
   if phrase != phrase.upcase do
     return "HUH! SPEAK UP, SONNY!"
-  elsif phrase == phrase.upcase do
+  elsif phrase == phrase.upcase 
     return "NO, NOT SINCE 1938!"
-  elsif phrase == "I LOVE YOU GRANDMA!" do 
+  elsif phrase == "I LOVE YOU GRANDMA!"  
     return "I LOVE YOU TOO PUMPKIN!"
   else
-    return nil
+    return "HUH"
   end
   
 end
